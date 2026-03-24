@@ -1,6 +1,5 @@
-# PizzaOrderApp_A1
-
-**PizzaOrderApp_A1** is a feature-rich iOS app for ordering pizzas, demonstrating core iOS development concepts like persistent storage, UI customization, and peripheral integration.
+# PizzaOrderApp
+**PizzaOrderAp** is a feature-rich iOS app for ordering pizzas, demonstrating core iOS development concepts like persistent storage, UI customization, and peripheral integration.
 
 ## Features
 
