@@ -22,3 +22,11 @@
 1. Clone the repository:  
    ```bash
    git clone https://github.com/<your-username>/PizzaOrderApp_A1.git
+
+## Images
+
+![Pizza HomeScreen](https://github.com/JanasiRajput/Pizza-App/blob/main/Pizza1.png?raw=true)  
+![Pizza Customization](https://github.com/JanasiRajput/Pizza-App/blob/main/Pizza2.png?raw=true)  
+![Pizza Order History](https://github.com/JanasiRajput/Pizza-App/blob/main/Pizza3.png?raw=true)  
+![Pizza Settings & WebView](https://github.com/JanasiRajput/Pizza-App/blob/main/Pizza4.png?raw=true)
+   
