@@ -1,2 +1,24 @@
-**Project Description**
-PizzaOrderApp_A1 is a feature-rich pizza ordering utility designed to demonstrate core iOS development principles including persistent storage, UI customization, and peripheral integration. Users can configure pizzas with specific sizes and toppings, set delivery dates, and provide delivery addresses. The app features a persistent "Order History" that retrieves stored data from an SQLite database, ensuring that user orders are saved across app launches. Additionally, it includes a settings module utilizing UserDefaults for quick profile recall and an integrated WKWebView for external web browsing.
+# PizzaOrderApp_A1
+
+**PizzaOrderApp_A1** is a feature-rich iOS app for ordering pizzas, demonstrating core iOS development concepts like persistent storage, UI customization, and peripheral integration.
+
+## Features
+
+- **Custom Pizza Orders**: Choose pizza size, toppings, delivery date, and provide delivery addresses.  
+- **Persistent Order History**: Orders are stored in an SQLite database, ensuring past orders are accessible across app launches.  
+- **Settings Module**: Uses `UserDefaults` to quickly recall user profiles.  
+- **Integrated Web Browsing**: Built-in `WKWebView` allows browsing external websites without leaving the app.  
+- **Intuitive UI**: Smooth interface demonstrating effective UI customization and data handling.
+
+## Technologies Used
+
+- Swift / UIKit  
+- SQLite for data persistence  
+- UserDefaults for quick settings storage  
+- WKWebView for web integration  
+
+## Installation
+
+1. Clone the repository:  
+   ```bash
+   git clone https://github.com/<your-username>/PizzaOrderApp_A1.git
