@@ -3,15 +3,25 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 77;
+	objectVersion = 70;
 	objects = {
+
+/* Begin PBXBuildFile section */
+		795E36482F4BBDE000C68E49 /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E36472F4BBDE000C68E49 /* AVFoundation.framework */; };
+		795E364A2F4BBDEA00C68E49 /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 795E36492F4BBDEA00C68E49 /* QuartzCore.framework */; };
+		79A779462F399B8400ED35BB /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79A779452F399B8400ED35BB /* WebKit.framework */; };
+/* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		794DF2DC2F3957FA00EB3171 /* PizzaOrderApp_A1.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = PizzaOrderApp_A1.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		795E36472F4BBDE000C68E49 /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		795E36492F4BBDEA00C68E49 /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		79A779452F399B8400ED35BB /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		79AB68E42F6E254D000FB259 /* libsqlite3.0.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libsqlite3.0.tbd; path = usr/lib/libsqlite3.0.tbd; sourceTree = SDKROOT; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		794DF2EE2F3957FB00EB3171 /* Exceptions for "PizzaOrderApp_A1" folder in "PizzaOrderApp_A1" target */ = {
+		793299F42F733CBE0069A766 /* PBXFileSystemSynchronizedBuildFileExceptionSet */ = {
 			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
 			membershipExceptions = (
 				Info.plist,
@@ -21,14 +31,9 @@
 /* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		794DF2DE2F3957FA00EB3171 /* PizzaOrderApp_A1 */ = {
-			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				794DF2EE2F3957FB00EB3171 /* Exceptions for "PizzaOrderApp_A1" folder in "PizzaOrderApp_A1" target */,
-			);
-			path = PizzaOrderApp_A1;
-			sourceTree = "<group>";
-		};
+		794DF2DE2F3957FA00EB3171 /* PizzaOrderApp_A1 */ = {isa = PBXFileSystemSynchronizedRootGroup; exceptions = (793299F42F733CBE0069A766 /* PBXFileSystemSynchronizedBuildFileExceptionSet */, ); explicitFileTypes = {}; explicitFolders = (); path = PizzaOrderApp_A1; sourceTree = "<group>"; };
+		79AB68E22F6E2519000FB259 /* Database */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Database; sourceTree = "<group>"; };
+		79AB68E32F6E2522000FB259 /* Classes */ = {isa = PBXFileSystemSynchronizedRootGroup; explicitFileTypes = {}; explicitFolders = (); path = Classes; sourceTree = "<group>"; };
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -36,6 +41,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				795E36482F4BBDE000C68E49 /* AVFoundation.framework in Frameworks */,
+				79A779462F399B8400ED35BB /* WebKit.framework in Frameworks */,
+				795E364A2F4BBDEA00C68E49 /* QuartzCore.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -45,7 +53,10 @@
 		794DF2D32F3957FA00EB3171 = {
 			isa = PBXGroup;
 			children = (
+				79AB68E32F6E2522000FB259 /* Classes */,
+				79AB68E22F6E2519000FB259 /* Database */,
 				794DF2DE2F3957FA00EB3171 /* PizzaOrderApp_A1 */,
+				79A779442F399B8400ED35BB /* Frameworks */,
 				794DF2DD2F3957FA00EB3171 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -56,6 +67,17 @@
 				794DF2DC2F3957FA00EB3171 /* PizzaOrderApp_A1.app */,
 			);
 			name = Products;
+			sourceTree = "<group>";
+		};
+		79A779442F399B8400ED35BB /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				79AB68E42F6E254D000FB259 /* libsqlite3.0.tbd */,
+				795E36492F4BBDEA00C68E49 /* QuartzCore.framework */,
+				795E36472F4BBDE000C68E49 /* AVFoundation.framework */,
+				79A779452F399B8400ED35BB /* WebKit.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -75,6 +97,8 @@
 			);
 			fileSystemSynchronizedGroups = (
 				794DF2DE2F3957FA00EB3171 /* PizzaOrderApp_A1 */,
+				79AB68E22F6E2519000FB259 /* Database */,
+				79AB68E32F6E2522000FB259 /* Classes */,
 			);
 			name = PizzaOrderApp_A1;
 			packageProductDependencies = (
@@ -99,6 +123,7 @@
 				};
 			};
 			buildConfigurationList = 794DF2D72F3957FA00EB3171 /* Build configuration list for PBXProject "PizzaOrderApp_A1" */;
+			compatibilityVersion = "Xcode 15.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
@@ -107,7 +132,6 @@
 			);
 			mainGroup = 794DF2D32F3957FA00EB3171;
 			minimizedProjectReferenceProxies = 1;
-			preferredProjectObjectVersion = 77;
 			productRefGroup = 794DF2DD2F3957FA00EB3171 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -252,7 +276,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
 				MTL_FAST_MATH = YES;
@@ -309,10 +333,11 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 26.2;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.6;
 				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				VALIDATE_PRODUCT = YES;
